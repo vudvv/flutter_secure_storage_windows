@@ -13,7 +13,10 @@ dependencies:
     sdk: flutter
   flutter_secure_storage_platform_interface: ^1.0.1
   path: ^1.8.0
-  path_provider: ^2.0.0
+  path_provider:
+    git:
+      url: https://github.com/vudvv/path_provider
+      ref: 2.1.6
   win32: ^5.0.0
 
 dev_dependencies:
